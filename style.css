@@ -148,34 +148,34 @@ header{
 }
 /*feature*/
 .feature{
-    margin: 90px auto;
+	width: 100%;
 }
 .feature-contents{
-    margin: 0 auto;
-    width: 980px;
-    padding: 30 0 90 0;
+	width:980px;
+	margin: 90px auto;
+}
+.feature-box{
+	width:320px;
+	float:left;
 }
 .feature-content{
-    float:left;
-    width: 320px;
-    text-align: center;
-    margin-right:10px;
+	text-align:center;
+	margin-right: 10px;
 }
-.feature-content:last-child{
-	margin-right:0;
+
+.feature-content i{
+	font-size:60px;
+	text-align:center;
 }
 .feature-content-title{
-    text-align: center;
-    margin:30px 0;
-    font-size: 20px;
+	font-size: 20px;
+	color: #000;
+	margin:10px 0;
+
 }
 .feature-content-text{
-    text-align: left;
-    font-size: 16px;
-}
-.fas{
-    text-align: center;
-    font-size: 60px;
+	text-align:left;
+	font-size: 16px;
 }
 /*profile*/
 .profile{
@@ -354,14 +354,22 @@ footer p{
 	margin:0 auto;
 }
 /*feature*/
-.feature-contents{
-	width:90%;
-
+.feature{
+	width:100%;
 }
-
-.feature-content{
-	margin:0 auto;
+.feature-contents{
+	width: 90%;
+}
+.feature-box{
 	float:none;
+	margin:0 auto;
+}
+.feature-content-text{
+	text-align: center;
+	margin:10px 0;
+}
+.feature-content-title{
+	margin-top: 10px;
 }
 /*profile*/
 .profile{
